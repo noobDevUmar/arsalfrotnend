@@ -1,0 +1,28 @@
+#root {
+
+  margin: 0 auto;
+ margin-top: 0;
+ margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+  background-color: transparent
+}
+
+body{
+background-color: aliceblue;
+
+}
+#firstdiv{
+ 
+  width: 40%;
+}
+#video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Place the video behind other content */
+}

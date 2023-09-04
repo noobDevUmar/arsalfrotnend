@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kablammo&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kablammo&family=Neucha&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chonburi&family=Kablammo&family=Neucha&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@800&family=Poppins:ital,wght@0,500;0,900;1,300;1,700;1,800;1,900&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
